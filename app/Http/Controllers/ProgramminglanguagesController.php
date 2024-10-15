@@ -7,11 +7,13 @@ use App\Models\Programminglanguages;
 use App\Http\Requests\ProgramminglanguagesRequest;
 use App\Http\Requests\ProgramminglanguagesRequest2;
 
+
 class ProgramminglanguagesController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
+
     public function index()
     {
         $programminglanguages = Programminglanguages::all();
